@@ -1,0 +1,20 @@
+{
+  "name": "property-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Illustrative property-test starters for the feed-in credit example (fictional meter-platform).",
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@fast-check/vitest": "^0.5.0",
+    "fast-check": "^4.10.2",
+    "typescript": "^5.9.0",
+    "vitest": "^5.1.0"
+  }
+}
